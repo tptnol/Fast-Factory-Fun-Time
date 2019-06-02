@@ -1,0 +1,64 @@
+{
+	"layout": {
+		"scale": 64,
+		"size": [75, 9],
+		"start": [0, 7],
+		"goal": [44, 3, 2, 5],
+		"timer": 7
+	},
+
+	"physics": {
+		"gravity": 5,
+		"terminal_velocity": 36
+	},
+
+	"music": "assets/sounds/jazz_theme.ogg",
+
+	"background": {
+		"color": [0, 0, 0],
+		"image1": "assets/images/backgrounds/gray_sky.png",
+		"image2": "assets/images/backgrounds/best_gear.png",
+		"parallax_speed1": 0.6,
+		"parallax_speed2": 0.3
+	},
+
+	"tiles": {
+		"midground": [
+			[44.8, 4, "FlagTop"],
+			[44.8, 5, "FlagPole"],
+			[44.8, 6, "FlagPole"],
+			[44.8, 7, "FlagPole"]
+		],
+
+		"main": [
+			[0, 8, "Met_Ground"],
+			[4, 8, "Met_Ground"],
+			[8, 8, "Met_Ground"],
+			[12, 8, "Met_Ground"],
+			[16, 8, "Met_Ground"],
+			[20, 8, "Met_Ground"],
+			[24, 8, "Met_Ground"],
+			[28, 8, "Met_Ground"],
+			[32, 8, "Met_Ground"],
+			[36, 8, "Met_Ground"],
+			[40, 8, "Met_Ground"],
+			[44, 8, "Met_Ground"]
+
+		],
+
+		"foreground": [
+			[20, 7.5, "Blood"],
+			[16, 7.5, "Blood"],
+			[36, 7.5, "Blood"]
+		]
+	},
+
+	"items": [
+		[16, 7, "HealthItem"],
+		[32, 7, "HealthItem"],
+		[40, 7, "Gem"]
+	],
+
+	"enemies": [
+	]
+}

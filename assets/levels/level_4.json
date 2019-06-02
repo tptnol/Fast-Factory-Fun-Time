@@ -1,0 +1,69 @@
+{
+	"layout": {
+		"scale": 64,
+		"size": [49, 9],
+		"start": [0, 7],
+		"goal": [44, 3, 2, 5],
+		"timer": 10
+	},
+
+	"physics": {
+		"gravity": 3,
+		"terminal_velocity": 36
+	},
+
+	"music": "assets/sounds/jazz_theme.ogg",
+
+	"background": {
+		"color": [0, 0, 0],
+		"image1": "assets/images/backgrounds/gray_sky.png",
+		"image2": "assets/images/backgrounds/best_gear.png",
+		"parallax_speed1": 0.6,
+		"parallax_speed2": 0.3
+	},
+
+	"tiles": {
+		"midground": [
+			[44.8, 4, "FlagTop"],
+			[44.8, 5, "FlagPole"],
+			[44.8, 6, "FlagPole"],
+			[44.8, 7, "FlagPole"]
+		],
+
+		"main": [
+			[0, 8, "Met_Ground"],
+			[44, 8, "Met_Ground"],
+			[45, 9, "Met_Ground"],
+
+			[1, 7, "Met_Platform"],
+			[2, 6, "Met_Platform"],
+			[3, 5, "Met_Platform"],
+			[7, 5, "Met_Platform"],
+			[9, 5, "Met_Platform"],
+			[13, 5, "Met_Platform"],
+			[16, 5, "Met_Platform"],
+			[19, 6, "Met_Platform"],
+			[20, 6, "Met_Platform"],
+			[21, 6, "Met_Platform"],
+			[25, 5, "Met_Platform"],
+			[29, 5, "Met_Platform"],
+			[33, 6, "Met_Platform"],
+			[36, 6, "Met_Platform"],
+			[39, 7, "Met_Platform"]
+
+		],
+
+		"foreground": [
+		]
+	},
+
+	"items": [
+		[9, 2, "Gem"],
+		[29, 2, "Gem"],
+		[42, 4, "Gem"]
+	],
+
+	"enemies": [
+		[20, 5, "PlatformEnemy"]
+	]
+}

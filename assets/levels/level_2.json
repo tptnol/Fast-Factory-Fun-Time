@@ -1,0 +1,125 @@
+{
+	"layout": {
+		"scale": 64,
+		"size": [49, 9],
+		"start": [1, 7],
+		"goal": [44, 3, 2, 5],
+		"timer": 30
+	},
+
+	"physics": {
+		"gravity": 1.5,
+		"terminal_velocity": 36
+	},
+
+	"music": "assets/sounds/jazz_theme.ogg",
+
+	"background": {
+		"color": [0, 0, 0],
+		"image1": "assets/images/backgrounds/gray_sky.png",
+		"image2": "assets/images/backgrounds/best_gear.png",
+		"parallax_speed1": 0.6,
+		"parallax_speed2": 0.3
+	},
+
+	"tiles": {
+		"midground": [
+			[44.8, 4, "FlagTop"],
+			[44.8, 5, "FlagPole"],
+			[44.8, 6, "FlagPole"],
+			[44.8, 7, "FlagPole"]
+		],
+
+		"main": [
+			[1, 8, "Met_Ground"],
+			[2, 8, "Met_Ground"],
+			[3, 8, "Met_Ground"],
+			[0, 8, "Met_Ground"],
+			[4, 8, "Met_Ground"],
+			[5, 8, "Met_Ground"],
+			[6, 8, "Met_Ground"],
+			[7, 8, "Met_Ground"],
+			[8, 8, "Met_Ground"],
+			[9, 8, "Met_Ground"],
+			[10, 8, "Met_Ground"],
+			[11, 8, "Met_Ground"],
+			[12, 8, "Met_Ground"],
+			[13, 8, "Met_Ground"],
+			[14, 8, "Met_Ground"],
+			[15, 8, "Met_Ground"],
+			[16, 8, "Met_Ground"],
+			[17, 8, "Met_Ground"],
+			[18, 8, "Met_Ground"],
+			[19, 8, "Met_Ground"],
+			[20, 8, "Met_Ground"],
+			[21, 8, "Met_Ground"],
+			[22, 8, "Met_Ground"],
+			[23, 8, "Met_Ground"],
+			[24, 8, "Met_Ground"],
+			[25, 8, "Met_Ground"],
+			[26, 8, "Met_Ground"],
+			[27, 8, "Met_Ground"],
+			[28, 8, "Met_Ground"],
+			[29, 8, "Met_Ground"],
+			[30, 8, "Met_Ground"],
+			[31, 8, "Met_Ground"],
+			[32, 8, "Met_Ground"],
+			[33, 8, "Met_Ground"],
+			[34, 8, "Met_Ground"],
+			[35, 8, "Met_Ground"],
+			[36, 8, "Met_Ground"],
+			[37, 8, "Met_Ground"],
+			[38, 8, "Met_Ground"],
+			[39, 8, "Met_Ground"],
+			[40, 8, "Met_Ground"],
+			[41, 8, "Met_Ground"],
+			[42, 8, "Met_Ground"],
+			[43, 8, "Met_Ground"],
+			[44, 8, "Met_Ground"],
+			[45, 8, "Met_Ground"],
+			[46, 8, "Met_Ground"],
+			[47, 8, "Met_Ground"],
+			[48, 8, "Met_Ground"],
+			[49, 8, "Met_Ground"],
+			[50, 8, "Met_Ground"],
+			[51, 8, "Met_Ground"],
+			[52, 8, "Met_Ground"],
+
+			[2, 5, "Met_Platform"],
+			[9, 3, "Met_Platform"],
+			[15, 2, "Met_Platform"],
+			[24, 3, "Met_Platform"],
+			[27, 1, "Met_Platform"],
+			[29, 3, "Met_Platform"],
+			[37, 2, "Met_Platform"],
+			[41, 4, "Met_Platform"],
+			[41, 5, "Met_Platform"],
+			[41, 6, "Met_Platform"],
+			[41, 7, "Met_Platform"]
+		],
+
+		"foreground": [
+			[12, 7.5, "Blood"],
+			[19, 7.5, "Blood"],
+			[34, 7.5, "Blood"]
+		]
+	},
+
+	"items": [
+		[9, 2, "Gem"],
+		[29, 2, "Gem"],
+		[41, 3, "Gem"],
+		[40, 7, "HealthItem"]
+	],
+
+	"enemies": [
+		[5, 7, "BasicEnemy"],
+		[10, 7, "BasicEnemy"],
+		[15, 7, "BasicEnemy"],
+		[20, 7, "BasicEnemy"],
+		[25, 7, "BasicEnemy"],
+		[30, 7, "BasicEnemy"],
+		[35, 7, "BasicEnemy"],
+		[39, 7, "BasicEnemy"]
+	]
+}

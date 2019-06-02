@@ -1,0 +1,64 @@
+{
+	"layout": {
+		"scale": 64,
+		"size": [75, 9],
+		"start": [0, 7],
+		"goal": [44, 3, 2, 5],
+		"timer": 15
+	},
+
+	"physics": {
+		"gravity": 1.5,
+		"terminal_velocity": 36
+	},
+
+	"music": "assets/sounds/jazz_theme.ogg",
+
+	"background": {
+		"color": [0, 0, 0],
+		"image1": "assets/images/backgrounds/gray_sky.png",
+		"image2": "assets/images/backgrounds/best_gear.png",
+		"parallax_speed1": 0.6,
+		"parallax_speed2": 0.3
+	},
+
+	"tiles": {
+		"midground": [
+			[44.8, 4, "FlagTop"],
+			[44.8, 5, "FlagPole"],
+			[44.8, 6, "FlagPole"],
+			[44.8, 7, "FlagPole"]
+		],
+
+		"main": [
+			[0, 8, "Met_Ground"],
+			[18, 8, "Met_Ground"],
+			[32, 8, "Met_Ground"],
+			[44, 8, "Met_Ground"],
+			[45, 8, "Met_Ground"],
+
+			[0, 5, "Met_Platform"],
+
+			[0, 2, "Met_Platform"],
+			[3, 1, "Met_Platform"],
+
+			[18, 5, "Met_Platform"],
+			[18, 2, "Met_Platform"],
+
+			[32, 5, "Met_Platform"],
+			[32, 2, "Met_Platform"]
+		],
+
+		"foreground": [
+		]
+	},
+
+	"items": [
+		[15, 3, "Gem"],
+		[29, 3, "Gem"],
+		[41, 3, "Gem"]
+	],
+
+	"enemies": [
+	]
+}

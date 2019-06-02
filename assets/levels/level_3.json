@@ -1,0 +1,192 @@
+{
+	"layout": {
+		"scale": 64,
+		"size": [75, 9],
+		"start": [0, 7],
+		"goal": [44, 3, 2, 5],
+		"timer": 10
+	},
+
+	"physics": {
+		"gravity": 2,
+		"terminal_velocity": 36
+	},
+
+	"music": "assets/sounds/jazz_theme.ogg",
+
+	"background": {
+		"color": [0, 0, 0],
+		"image1": "assets/images/backgrounds/gray_sky.png",
+		"image2": "assets/images/backgrounds/best_gear.png",
+		"parallax_speed1": 0.6,
+		"parallax_speed2": 0.3
+	},
+
+	"tiles": {
+		"midground": [
+			[44.8, 4, "FlagTop"],
+			[44.8, 5, "FlagPole"],
+			[44.8, 6, "FlagPole"],
+			[44.8, 7, "FlagPole"]
+		],
+
+		"main": [
+			[1, 8, "Met_Ground"],
+			[2, 8, "Met_Ground"],
+			[3, 8, "Met_Ground"],
+			[0, 8, "Met_Ground"],
+			[4, 8, "Met_Ground"],
+			[5, 8, "Met_Ground"],
+			[6, 8, "Met_Ground"],
+			[7, 8, "Met_Ground"],
+			[8, 8, "Met_Ground"],
+			[9, 8, "Met_Ground"],
+			[10, 8, "Met_Ground"],
+			[11, 8, "Met_Ground"],
+			[12, 8, "Met_Ground"],
+			[13, 8, "Met_Ground"],
+			[14, 8, "Met_Ground"],
+			[15, 8, "Met_Ground"],
+			[16, 8, "Met_Ground"],
+			[17, 8, "Met_Ground"],
+			[18, 8, "Met_Ground"],
+			[19, 8, "Met_Ground"],
+			[20, 8, "Met_Ground"],
+			[21, 8, "Met_Ground"],
+			[22, 8, "Met_Ground"],
+			[23, 8, "Met_Ground"],
+			[24, 8, "Met_Ground"],
+			[25, 8, "Met_Ground"],
+			[26, 8, "Met_Ground"],
+			[27, 8, "Met_Ground"],
+			[28, 8, "Met_Ground"],
+			[29, 8, "Met_Ground"],
+			[30, 8, "Met_Ground"],
+			[31, 8, "Met_Ground"],
+			[32, 8, "Met_Ground"],
+			[33, 8, "Met_Ground"],
+			[34, 8, "Met_Ground"],
+			[35, 8, "Met_Ground"],
+			[36, 8, "Met_Ground"],
+			[37, 8, "Met_Ground"],
+			[38, 8, "Met_Ground"],
+			[39, 8, "Met_Ground"],
+			[40, 8, "Met_Ground"],
+			[41, 8, "Met_Ground"],
+			[42, 8, "Met_Ground"],
+			[43, 8, "Met_Ground"],
+			[44, 8, "Met_Ground"],
+			[45, 8, "Met_Ground"],
+			[46, 8, "Met_Ground"],
+			[47, 8, "Met_Ground"],
+			[48, 8, "Met_Ground"],
+			[49, 8, "Met_Ground"],
+			[50, 8, "Met_Ground"],
+			[51, 8, "Met_Ground"],
+			[52, 8, "Met_Ground"],
+
+			[1, 6, "Met_Platform"],
+			[1, 2, "Met_Platform"],
+			[1, 1, "Met_Platform"],
+			[1, 0, "Met_Platform"],
+			[1, 3, "Met_Platform"],
+
+			[5, 0, "Met_Platform"],
+			[5, 1, "Met_Platform"],
+			[5, 2, "Met_Platform"],
+			[5, 5, "Met_Platform"],
+			[5, 6, "Met_Platform"],
+
+			[9, 0, "Met_Platform"],
+			[9, 3, "Met_Platform"],
+			[9, 4, "Met_Platform"],
+			[9, 5, "Met_Platform"],
+			[9, 6, "Met_Platform"],
+			[9, -1, "Met_Platform"],
+			[9, -2, "Met_Platform"],
+			[9, -3, "Met_Platform"],
+
+			[13, 0, "Met_Platform"],
+			[13, 1, "Met_Platform"],
+			[13, 2, "Met_Platform"],
+			[13, 6, "Met_Platform"],
+			[13, 5, "Met_Platform"],
+
+			[17, 0, "Met_Platform"],
+			[17, 3, "Met_Platform"],
+			[17, 4, "Met_Platform"],
+			[17, 5, "Met_Platform"],
+			[17, 6, "Met_Platform"],
+
+			[21, 0, "Met_Platform"],
+			[21, 1, "Met_Platform"],
+			[21, 2, "Met_Platform"],
+			[21, 5, "Met_Platform"],
+			[21, 6, "Met_Platform"],
+
+			[25, 0, "Met_Platform"],
+			[25, 1, "Met_Platform"],
+			[25, 4, "Met_Platform"],
+			[25, 5, "Met_Platform"],
+			[25, 6, "Met_Platform"],
+			[25, -1, "Met_Platform"],
+			[25, -2, "Met_Platform"],
+			[25, -3, "Met_Platform"],
+
+			[29, 2, "Met_Platform"],
+			[29, 3, "Met_Platform"],
+			[29, 4, "Met_Platform"],
+			[29, 5, "Met_Platform"],
+			[29, 6, "Met_Platform"],
+			[29, -1, "Met_Platform"],
+			[29, -2, "Met_Platform"],
+			[29, -3, "Met_Platform"],
+			[29, -4, "Met_Platform"],
+			[29, -5, "Met_Platform"],
+
+			[33, 0, "Met_Platform"],
+			[33, 1, "Met_Platform"],
+			[33, 2, "Met_Platform"],
+			[33, 3, "Met_Platform"],
+			[33, 4, "Met_Platform"],
+			[33, 5, "Met_Platform"],
+			[33, 6, "Met_Platform"],
+
+			[37, 0, "Met_Platform"],
+			[37, 1, "Met_Platform"],
+			[37, 2, "Met_Platform"],
+			[37, 5, "Met_Platform"],
+			[37, 6, "Met_Platform"],
+			[37, -1, "Met_Platform"],
+			[37, -2, "Met_Platform"],
+			[37, -3, "Met_Platform"],
+			[37, -4, "Met_Platform"],
+			[37, -5, "Met_Platform"],
+
+			[41, 0, "Met_Platform"],
+			[41, 3, "Met_Platform"],
+			[41, 4, "Met_Platform"],
+			[41, 5, "Met_Platform"],
+			[41, 6, "Met_Platform"],
+			[41, 7, "Met_Platform"]
+
+
+		],
+
+		"foreground": [
+			[12, 7.5, "Blood"],
+			[19, 7.5, "Blood"],
+			[34, 7.5, "Blood"]
+		]
+	},
+
+	"items": [
+		[9, 2, "Gem"],
+		[29, 1, "Gem"],
+		[41, 2, "Gem"]
+	],
+
+	"enemies": [
+		
+	]
+}
