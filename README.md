@@ -9,7 +9,8 @@
 ## Keyboard:
 
 ### Arrow keys to move
-### Space to jump and (re)start
+### Space to jump and start
+### R to restart
 ### P to pause 
 
 ## Controller:
