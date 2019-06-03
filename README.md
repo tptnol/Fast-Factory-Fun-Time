@@ -6,6 +6,9 @@
 
 ![Factory Start Screenshot](https://github.com/tptnol/Fast-Factory-Fun-Time/blob/master/Fast%20Factory%20Fun%20Time%20Start.png?raw=true)
 
+
+![Factory Start Screenshot](https://github.com/tptnol/Fast-Factory-Fun-Time/blob/master/Fast%20Factory%20Fun%20Time%20Start.png?raw=true)
+
 # Controls:
 
 ## Keyboard:
