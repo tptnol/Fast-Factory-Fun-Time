@@ -4,7 +4,7 @@
 ### This is definitely one of the fastest games I've made. Not for the feint of heart.
 ### Literally the Dark Souls of platformers.
 
-![Factory Screenshot](https://github.com/tptnol/Fast-Factory-Fun-Time/blob/master/Fast%20Factory%20Fun%20Time%20Screenshots.png?raw=true)
+![Factory Start Screenshot](https://github.com/tptnol/Fast-Factory-Fun-Time/blob/master/Fast%20Factory%20Fun%20Time%20Start.png?raw=true)
 
 # Controls:
 
