@@ -1,8 +1,10 @@
-# Fast Factory Fun Time
+# Fast Factory Fun Time 
 
 ### An evil factory foreman named Bacob Jirkland is shutting down all your fellow robots. It's up to you to stop him, get to him quickly or else they'll die on you! Run through the factory, dodge the nasty spiders and bots working for him, and get to the flag!
 ### This is definitely one of the fastest games I've made. Not for the feint of heart.
 ### Literally the Dark Souls of platformers.
+
+![Factory Screenshot](https://github.com/tptnol/Fast-Factory-Fun-Time/blob/master/Fast%20Factory%20Fun%20Time%20Screenshots.png?raw=true)
 
 # Controls:
 
