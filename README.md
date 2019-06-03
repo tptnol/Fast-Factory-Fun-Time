@@ -1,24 +1,42 @@
-# Pygame Platformer (2019)
+# Fast Factory Fun Time
 
-## Animation
+### An evil factory foreman named Bacob Jirkland is shutting down all your fellow robots. It's up to you to stop him, get to him quickly or else they'll die on you! Run through the factory, dodge the nasty spiders and bots working for him, and get to the flag!
+### This is definitely one of the fastest games I've made. Not for the feint of heart.
+### Literally the Dark Souls of platformers.
 
-This is the animated branch. 
+# Controls:
 
-### Hero Animation
+## Keyboard:
 
-The hero has four additional attributes.
+### Arrow keys to move
+### Space to jump and (re)start
+### P to pause 
 
-- `facing_right` is a boolean which is `True` when the hero is facing right and `False` otherwise. When the hero is first initialized, `facing_right` is set to `True`. Using the arrows to move right or left set this variable while playing.
-- `steps` is a variable that tracks how many iterations of the game loop have elapsed while the hero is walking.
-- `step_rate` is the number of frames that elapse before incrementing the `walk_index` to advance to the next image.
-- `walk_index` is the index of the image in the walk list to show.
+## Controller:
 
-Two functions have been added to the hero.
+### Left stick to move
+### A to jump
+### Start to start and X to restart
 
-`step` is called whenever the player is pressing either the right or left arrow key. This function increments the `steps` variable by one. Each time the `steps` variable reaches the `step_ rate`, it resets to zero and the `walk_index` is incremented. The `walk_index` resets to zero when equal to the length of the walk image list.
+# I HIGHLY RECOMMEND USING A CONTROLLER FOR THIS
 
-In  the heros `update` function calls a new function set_image. `set_image` looks at the current direction and state of the hero (hurt, jumping/falling, idle, or walking) to set the appropriate image.
+# Goal:
 
-### Enemy Animation
+### Touch the flag at the end of all 8 levels. Each level is its own problem (different gravity and terminal velocity); use your problem solving skills to finish it!
+### Get as much points as possible! Getting hit by an enemy makes you lose a life and 100 score. Getting a Health Item while you have max health gets you 100 points.
+### If you run out of lives, it's over! Restart and try again!
+### There's a really short timer to deal with. Go fast or you're dead!
 
-Enemies do not have a direction. Instead, they just cycle through all images in their `images` list. The `step_rate` is the number of frames that pass before the `walk_index` is incremented.
+# Scoring:
+
+### If you have max hearts and you get a Health Item, you gain 100 points.
+### If you get hit by an enemy, you lose 100 points.
+### Points don't really matter in the grand scheme of things. It won't matter if you can't pass the level.
+
+## Credits for Artwork:
+### [Robot Art](https://kenney.nl/assets/robot-pack)
+### [Metal Art](https://kenney.nl/assets/platformer-art-requests)
+### [Enemies Art](https://kenney.nl/assets/platformer-art-extended-enemies)
+### [Sprite Editor](https://www.piskelapp.com/)
+### [Gear Art](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjEipOqhcziAhVknuAKHRogDD4QjRx6BAgBEAU&url=https%3A%2F%2Fpixabay.com%2Fvectors%2Fgear-mechanics-settings-icon-1119298%2F&psig=AOvVaw08A6p2ArAcPxRvE6uqPOhm&ust=1559607607532872)
+
